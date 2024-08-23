@@ -1,0 +1,201 @@
+/* Reset CSS */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f4f0;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.negrito {
+  font-weight: bold;
+}
+
+.historia {
+  color: #0c51a7;
+  font-weight: bold;
+}
+
+.casais {
+  font-weight: bold;
+  color: #591b98;
+}
+
+.familia {
+  color: #e5245e;
+  font-weight: bold;
+}
+
+.orcamento {
+  color: #e95e10;
+  font-weight: bold;
+}
+
+.titulo {
+  font-size: 16px;
+  font-weight: bold;
+  color: #e1624f;
+}
+
+.busan {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  padding-top: 88px;
+}
+
+.busan .titulo {
+  padding-bottom: 8px;
+}
+
+.busan h1 {
+  padding-bottom: 40px;
+}
+
+.busan p {
+  padding-top: 24px;
+}
+
+.busan img {
+  width: 1120px;
+  height: 660px;
+  border-radius: 28px;
+  padding-bottom: 24px;
+}
+
+.line {
+  border: 1px solid #d9d9d9;
+  width: 1120px;
+  margin-top: 40px;
+}
+
+/* outra parte */
+
+.destinos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  padding-top: 64px;
+}
+
+.destinos .titulo {
+  padding-bottom: 8px;
+}
+
+.destinos h1 {
+  padding-bottom: 40px;
+}
+
+.destinos img {
+  object-fit: cover;
+  width: 1120px;
+  height: 350px;
+  border-radius: 28px;
+}
+
+.intro .titulo {
+  padding-bottom: 2px;
+}
+
+.intro h2 {
+  padding-bottom: 8px;
+}
+
+.intro .descricao {
+  padding-bottom: 64px;
+}
+
+.intro img {
+  padding-bottom: 20px;
+}
+
+.intro h3 {
+  padding-bottom: 4px;
+}
+
+.intro #dsc {
+  padding-bottom: 24px;
+}
+
+.intro li {
+  padding-bottom: 48px;
+}
+
+.bomeo img {
+  padding-bottom: 20px;
+}
+
+.bomeo h3 {
+  padding-bottom: 4px;
+}
+
+.bomeo #dsc {
+  padding-bottom: 24px;
+}
+
+.bomeo li {
+  padding-bottom: 48px;
+}
+
+.parque img {
+  padding-bottom: 20px;
+}
+
+.parque h3 {
+  padding-bottom: 4px;
+}
+
+.parque #dsc {
+  padding-bottom: 24px;
+}
+
+.parque .line2 {
+  border: 1px solid #d9d9d9;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.parque .prefoot {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 65px;
+}
+
+footer p {
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+body {
+  animation: appear 1.5s;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+}
